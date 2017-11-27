@@ -1,0 +1,38 @@
+﻿@charset "utf-8";
+/*重置代码*/
+body,div,a,img,p,form,h1,h2,h3,h4,h5,h6,input,form,select,option,textarea,ul,ol,li,dt,dd,dl,fieldset{margin:0;padding:0;}
+body { width: 100%;font-family: "微软雅黑"; font-size:14px; color:#3c3c3c; line-height:30px; background:url(../images/body_bg.jpg) no-repeat top center #f5f5f5;}
+img{border:0;}
+a{color:#3c3c3c; text-decoration:none;}
+a:hover{color:#005594;}
+ul,li{list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-family:"微软雅黑";}
+
+.header { width: 1000px; height:265px; overflow:hidden; position: relative; margin:0 auto;}
+.links01_h{ width: 275px; height:36px; line-height:36px; position:absolute; left:0; top:0; color:#003963;}
+.links01_h a{color:#003963; padding:0 5px;}
+.links01_h a:hover{ background:#0a83dd; color:#fff;}
+.links02_h{ width: 510px; height:36px; line-height:36px; position:absolute; right:0; top:0; color:#fff;}
+.riqi{ width: 110px; float: left; font-size:12px;}
+.tianqi{ width: 150px; height:36px; line-height:36px; float: left; color:#fff; font-size:12px;}
+.links0201_h{ width: 250px; float: left;}
+.links0201_h a{ color:#fff; padding:0 5px;}
+.links0201_h a:hover{background:#0a83dd; color:#fff;}
+
+.logo01{ width: 319px; height:83px; position:absolute; left:13px; top:72px;}
+.logo02{ width: 59px; height:66px; position:absolute; right:4px; top:90px;}
+
+.ser{ width:230px; height:30px; position:absolute;right:0; top:213px;}
+.search{background:url(../images/ser.jpg) no-repeat;width:230px; height:30px;position:relative;}
+.search input{position:absolute; width:186px;height:30px;line-height:30px; font-family:"微软雅黑"; color:#658faf; border:none; background:none; left:0px; top:0px; padding-left:0px; }
+.search input.notxt{color:#658faf; padding-left:10px;}	
+.search input.notxt1 {position: absolute;width: 34px;height: 30px;top: 0px;left: 196px;border: none;background: none;cursor:pointer; }
+
+.nav{ width: 730px; height:40px; line-height:40px; position:absolute; left:0; top:208px;}
+.nav ul li{ height:40px; line-height:40px;float: left; margin-right:5px;}
+.nav ul li a{ display:block; float: left; height:40px; padding:0 22px; color:#003862; font-size:18px;}
+.nav ul li a:hover,.nav ul li.now a{ background:#0a83dd; color:#fff;}
+
+/*底部样式*/
+.footer{ width: 100%; height:72px; padding:12px 0; background:#efefef; border-top:4px solid #0a83dd; font-size:12px; line-height:24px; color:#666666; text-align:center;}
+

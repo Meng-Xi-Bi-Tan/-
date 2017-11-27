@@ -1,0 +1,97 @@
+/*psk - 修改于2010.10.28 - 兼容火狐修改*/
+
+/*原样式
+body {margin:0px;background-color: #ECECEC;font-family: "宋体";}
+input.submit_hui {background-color: #B0B0B0; color: #ffffff;cursor: hand;} 
+input.submit_hong {background-color: #D10000; border-top: 1px #F8C0C1 solid; border-left: 1px #F8C0C1 solid; border-right: 1px #D10000 solid; border-bottom: 1px #630400 solid; color: #ffffff;cursor: hand;} 
+*/
+
+
+body {
+	margin:0px auto;
+	background-color: #ECECEC;
+	font-family: "宋体";
+}
+
+td { font-size:12px;
+}
+.font13{ font-size:13px;}
+.font14{ font-size:14px;}
+
+input.textfield { 
+	font-size: 9pt; 
+	line-height: 12pt;
+	border: 1px #999999 solid; 
+	background-color: #FFFFFF; 
+	color: #404040;
+	} 
+input.submit_hui {
+	background-color: #B0B0B0; 
+	color: #ffffff;
+	cursor: pointer;
+	} 
+input.submit_hong {
+	background-color: #D10000; 
+	border-top: 1px #F8C0C1 solid; 
+	border-left: 1px #F8C0C1 solid; 
+	border-right: 1px #D10000 solid; 
+	border-bottom: 1px #630400 solid; 
+	color: #ffffff;
+	cursor: pointer;
+	} 
+
+a:link { color:#000000; text-decoration:none;}
+a:visited { color:#000000; text-decoration:none;}
+a:hover { color:#C81908; text-decoration:underline;}
+a:active { color:#C81908; text-decoration:underline;}
+
+a.a_hong:link { color:#C81908; text-decoration:underline;font-weight:bold;}
+a.a_hong:visited { color:#C81908; text-decoration:underline;font-weight:bold;}
+a.a_hong:hover { color:#C81908; text-decoration:underline;font-weight:bold;}
+a.a_hong:active { color:#C81908; text-decoration:underline;font-weight:bold;}
+
+a.a_lan:link { color:#0173BC; text-decoration:underline;}
+a.a_lan:visited { color:#0173BC; text-decoration:underline;}
+a.a_lan:hover { color:#C81908; text-decoration:underline;}
+a.a_lan:active { color:#C81908; text-decoration:underline;}
+
+a.lan:link { color:#0000FF; text-decoration:none;}
+a.lan:visited { color:#0000FF; text-decoration:none;}
+a.lan:hover { color:#C81908; text-decoration:underline;}
+a.lan:active { color:#C81908; text-decoration:underline;}
+
+a.a_lan_wx:link { color:#0173BC; text-decoration:none;}
+a.a_lan_wx:visited { color:#0173BC; text-decoration:none;}
+a.a_lan_wx:hover { color:#C81908; text-decoration:underline;}
+a.a_lan_wx:active { color:#C81908; text-decoration:underline;}
+
+a.hui:link { color:#686868; text-decoration:none;}
+a.hui:visited { color:#686868; text-decoration:none;}
+a.hui:hover { color:#C81908; text-decoration:underline;}
+a.hui:active { color:#C81908; text-decoration:underline;}
+
+#a_hui a:link { color:#686868; text-decoration:none;font-weight:bold;}
+#a_hui a:visited { color:#686868; text-decoration:none;font-weight:bold;}
+#a_hui a:hover { color:#C81908; text-decoration:underline;font-weight:bold;}
+#a_hui a:active { color:#C81908; text-decoration:underline;font-weight:bold;}
+
+#a_bai a:link { color:#ffffff; text-decoration:none;}
+#a_bai a:visited { color:#ffffff; text-decoration:none;}
+#a_bai a:hover { color:#ffffff; text-decoration:underline;}
+#a_bai a:active { color:#ffffff; text-decoration:underline;}
+
+a.a_derline:link { color:#000000; text-decoration:underline;}
+a.a_derline:visited { color:#000000; text-decoration:underline;}
+a.a_derline:hover { color:#C81908; text-decoration:underline;}
+a.a_derline:active { color:#C81908; text-decoration:underline;}
+
+.banner_bg {
+    margin:0px;
+	background-attachment: scroll;
+	background-image: url(/images/bg_dh_banner.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.line18{
+line-height:18px;
+}

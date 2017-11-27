@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>无标题文档</title>
+<link href="search_data/search_index.htm" type="text/css" rel="stylesheet">
+	<link href="search_data/jquery.css" type="text/css" rel="stylesheet">
+	<link href="search_data/jquery-ui-1.css" type="text/css" rel="stylesheet">
+	
+	<script src="search_data/jquery-1.js"></script>
+	<script src="search_data/jquery-ui-1.js"></script>
+	<script src="search_data/jquery.js"></script>
+<style>
+.dyc_search{ background:url(/dig/search/html/img/dyc1_53.gif) no-repeat; width:195px; height:33px; border:none; line-height:33px; padding:0; margin:0 auto; float:left;}
+.dyc_search1{background:url(/dig/search/html/img/dyc1_52.gif) no-repeat; width:70px; height:33px; border:none; font-size:14px; font-weight:bold; color:#a23703; font-family:"微软雅黑"; float:left;}
+body{width:270px; margin:0 auto;}
+.dyc_search0{margin:0 auto;}
+</style>
+<script type="text/javascript">
+		 
+		$(document).ready(function() { 
+			 $( "#q" ).autocomplete({  
+			   source: '/dig/keywordAssociate.action'
+			 });  
+		});
+					
+	</script>
+</head>
+<body>
+<form action="http://sear.bjchp.gov.cn/dig/search.action" method="get" id="searchForm" name="searchForm" target="_blank" class="dyc_search0">
+  <input name="ty" id="ty" type="hidden">
+  <input name="dr" id="dr" value="true" type="hidden">
+  <input name="w" id="true" type="hidden">
+  <input name="f" id="f" type="hidden">
+  <input name="sr" id="sr" value="score desc" type="hidden">
+  <input class="dyc_search ui-autocomplete-input" name="q" id="q" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" type="text">
+  <input value="搜索" class="dyc_search1" align="absmiddle" type="submit">
+</form>
+<script type="text/javascript">
+	function globSearch(){
+  		document.forms["searchForm"].submit();
+  }
+</script>
+
+
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 1; top: 0px; left: 0px; display: none;"></ul></body></html>

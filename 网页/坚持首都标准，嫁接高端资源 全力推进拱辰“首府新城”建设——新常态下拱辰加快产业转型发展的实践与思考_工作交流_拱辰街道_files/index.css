@@ -1,0 +1,306 @@
+body {
+	background: rgb(230, 230, 230); margin: 0px auto; padding: 0px; color: rgb(60, 60, 60); font-size: 12px;
+}
+td {
+	font-size: 12px;
+}
+.head_td {
+	color: rgb(255, 255, 255); font-size: 12px;
+}
+a.sethome:link {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+a.sethome:visited {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+a.sethome:hover {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.search {
+	border: 1px solid rgb(207, 207, 207); border-image: none; width: 150px; height: 18px; color: rgb(190, 188, 190); line-height: 18px; font-size: 12px;
+}
+a.nav:link {
+	color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+a.nav:visited {
+	color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+a.nav:hover {
+	color: rgb(255, 255, 255); font-size: 14px; text-decoration: underline;
+}
+.inputborder {
+	border: 1px solid rgb(210, 210, 210); border-image: none; width: 120px; height: 20px;
+}
+a:link {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a:visited {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a:hover {
+	color: rgb(204, 0, 0); font-size: 12px; text-decoration: underline;
+}
+a:active {
+	color: rgb(204, 0, 0); font-size: 12px; text-decoration: underline;
+}
+.tag0 {
+	background: url("../images/new_focus_bg0.jpg");
+}
+.tag1 {
+	background: url("../images/new_focus_bg1.jpg");
+}
+.tag2 {
+	background: url("../images/new_focus_bg2.jpg");
+}
+.tagTwo0 {
+	background: url("../images/tai_focus_bg0.jpg");
+}
+.tagTwo1 {
+	background: url("../images/tai_focus_bg1.jpg");
+}
+.tagTwo2 {
+	background: url("../images/tai_focus_bg2.jpg");
+}
+.font10 {
+	color: rgb(60, 60, 60); font-size: 12px;
+}
+.other_03 {
+	color: rgb(60, 60, 60); font-size: 12px;
+}
+#slideimg {
+	padding: 4px; border: 1px solid rgb(207, 207, 207); border-image: none;
+}
+.pic {
+	padding: 2px; border: 1px solid rgb(217, 217, 217); border-image: none; width: 158px; height: 126px; text-align: center; background-color: rgb(255, 255, 255);
+}
+.description {
+	padding: 0px 10px 0px 0px; color: rgb(60, 60, 60); line-height: 20px; font-size: 12px;
+}
+.description2 {
+	color: rgb(74, 74, 74); line-height: 23px; font-size: 13px;
+}
+a.font1:link {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a.font1:visited {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a.font1:hover {
+	color: rgb(204, 0, 0); font-size: 12px; text-decoration: underline;
+}
+.content {
+	color: rgb(60, 60, 60); line-height: 24px; padding-top: 8px; padding-right: 14px; padding-left: 14px; font-size: 12px;
+}
+.page {
+	color: rgb(60, 60, 60); font-size: 12px;
+}
+a.titlelnk:link {
+	color: rgb(60, 60, 60); font-size: 12px; font-weight: bold; text-decoration: none;
+}
+a.titlelnk:visited {
+	color: rgb(60, 60, 60); font-size: 12px; font-weight: bold; text-decoration: none;
+}
+a.titlelnk:hover {
+	color: rgb(204, 0, 0); font-size: 12px; font-weight: bold; text-decoration: underline;
+}
+a.namelnk:link {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a.namelnk:visited {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a.namelnk:hover {
+	color: rgb(204, 0, 0); font-size: 12px; text-decoration: underline;
+}
+a.namelnk2:link {
+	color: rgb(60, 60, 60); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+a.namelnk2:visited {
+	color: rgb(60, 60, 60); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+a.namelnk2:hover {
+	color: rgb(204, 0, 0); font-size: 14px; text-decoration: underline;
+}
+a.morelnk:link {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+a.morelnk:visited {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+a.morelnk:hover {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: underline;
+}
+a.morelnk2:link {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a.morelnk2:visited {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a.morelnk2:hover {
+	color: rgb(204, 0, 0); font-size: 12px; text-decoration: underline;
+}
+a.newlnk:link {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a.newlnk:visited {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+a.newlnk:hover {
+	color: rgb(204, 0, 0); font-size: 12px; text-decoration: underline;
+}
+a.newlnk_hot:link {
+	color: rgb(222, 3, 3); font-size: 12px; text-decoration: none;
+}
+a.newlnk_hot:visited {
+	color: rgb(222, 3, 3); font-size: 12px; text-decoration: none;
+}
+a.newlnk_hot:hover {
+	color: rgb(222, 3, 3); font-size: 12px; text-decoration: underline;
+}
+.datestyle {
+	color: rgb(60, 60, 60); font-size: 12px;
+}
+.datestyle_hot {
+	color: rgb(222, 3, 3); font-size: 12px;
+}
+.title_font {
+	color: rgb(60, 60, 60); padding-left: 6px; font-size: 14px; font-weight: bold;
+}
+.title_font a:link {
+	color: rgb(60, 60, 60); text-decoration: none;
+}
+.title_font a:visited {
+	color: rgb(60, 60, 60); text-decoration: none;
+}
+.title_font a:hover {
+	color: rgb(204, 0, 0); text-decoration: underline;
+}
+.title_font2 {
+	color: rgb(191, 3, 3); font-size: 14px; font-weight: bold;
+}
+.jianjie_content {
+	padding: 10px 8px 5px; color: rgb(60, 60, 60); line-height: 22px; font-size: 12px;
+}
+.jianjie_content a:link {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.jianjie_content a:hover {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.jianjie_content a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+select.selectstyle {
+	width: 128px; color: rgb(0, 0, 0); font-size: 13px;
+}
+.footer {
+	color: rgb(255, 255, 255); line-height: 24px; font-size: 12px;
+}
+.footer2 {
+	color: rgb(255, 255, 255); font-size: 12px;
+}
+.footer a.lnk1:link {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.footer a.lnk1:visited {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.footer a.lnk1:hover {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.footer2 a.lnk2:link {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.footer2 a.lnk2:visited {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.footer2 a.lnk2:hover {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.lanmu1 {
+	text-align: center; color: rgb(222, 3, 3); line-height: 22px; font-size: 14px; font-weight: bold;
+}
+.lanmu2 {
+	text-align: center; color: rgb(60, 60, 60); line-height: 22px; font-size: 14px; font-weight: bold;
+}
+.lanmu1 a:link {
+	color: rgb(222, 3, 3); font-size: 14px; text-decoration: none;
+}
+.lanmu1 a:visited {
+	color: rgb(222, 3, 3); font-size: 14px; text-decoration: none;
+}
+.lanmu1 a:hover {
+	color: rgb(222, 3, 3); font-size: 14px; text-decoration: underline;
+}
+.lanmu2 a:link {
+	color: rgb(60, 60, 60); font-size: 14px; text-decoration: none;
+}
+.lanmu2 a:visited {
+	color: rgb(60, 60, 60); font-size: 14px; text-decoration: none;
+}
+.lanmu2 a:hover {
+	color: rgb(222, 3, 3); font-size: 14px; text-decoration: underline;
+}
+.left_2:link {
+	text-align: left; color: rgb(222, 3, 3); font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.left_2:visited {
+	text-align: left; color: rgb(222, 3, 3); font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.left_2:hover {
+	color: rgb(222, 3, 3); font-size: 12px; font-weight: bold; text-decoration: underline;
+}
+.left_1:link {
+	text-align: left; color: rgb(60, 60, 60); font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.left_1:visited {
+	text-align: left; color: rgb(60, 60, 60); font-size: 12px; font-weight: bold; text-decoration: none;
+}
+.left_1:hover {
+	color: rgb(60, 60, 60); font-size: 12px; font-weight: bold; text-decoration: underline;
+}
+.td_title {
+	color: rgb(255, 255, 255); font-size: 14px; font-weight: bold;
+}
+.td_title2 {
+	color: rgb(0, 0, 0); line-height: 40px; font-size: 14px; font-weight: bold;
+}
+.position {
+	text-align: right; color: rgb(60, 60, 60); font-size: 12px;
+}
+.position a:link {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+.position a:visited {
+	color: rgb(60, 60, 60); font-size: 12px; text-decoration: none;
+}
+.position a:hover {
+	color: rgb(204, 0, 0); font-size: 12px; text-decoration: underline;
+}
+a.wenzhang:link {
+	color: rgb(51, 51, 51); font-size: 12px; text-decoration: none;
+}
+a.wenzhang:visited {
+	color: rgb(51, 51, 51); font-size: 12px; text-decoration: none;
+}
+a.wenzhang:hover {
+	color: rgb(204, 0, 0); font-size: 12px; text-decoration: underline;
+}
+.title {
+	color: rgb(191, 3, 3); padding-top: 10px; padding-bottom: 10px; font-size: 14px; font-weight: bold;
+}
+.content2 {
+	color: rgb(85, 85, 85); line-height: 24px; padding-top: 12px; padding-left: 15px; font-size: 12px;
+}
+.content2 a:link {
+	color: rgb(85, 85, 85); font-size: 12px; text-decoration: none;
+}
+.content2 a:hover {
+	color: rgb(85, 85, 85); font-size: 12px; text-decoration: none;
+}
+.content2 a:visited {
+	color: rgb(85, 85, 85); font-size: 12px; text-decoration: none;
+}
+#largeImg {
+	padding: 2px; border: 1px solid rgb(217, 217, 217); border-image: none; width: 158px; height: 130px; text-align: center; background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+* { margin:0px; padding:0px; }
+body { background-color:#666666; }
+td { font-size:12px; color:#333333; line-height:18px; }
+a { color:#333333; text-decoration:none; }
+a:hover { color:#1446A9; text-decoration:underline; }
+object { display:block; }
+.font14 { font-size:14px; }
+.fontb { font-weight:bold; }
+.font_blue { color:#2065C3; }
+.font_blue a { color:#2065C3; text-decoration:none; }
+.font_blue a:hover { color:#2065C3; text-decoration:underline; }
+.font_hui { color:#666666; }
+.font_hui a { color:#666666; text-decoration:none; }
+.font_hui a:hover { color:#666666; text-decoration:underline; }
+.font_lv { color:#4B841C; }
+.font_lv a { color:#4B841C; text-decoration:none; }
+.font_lv a:hover { color:#4B841C; text-decoration:underline; }
+.font_bai { color:#FFFFFF; }
+.font_bai a { color:#FFFFFF; text-decoration:none; }
+.font_bai a:hover { color:#FFFFFF; text-decoration:underline; }
+
+.table { margin:0 auto; background-color:#FFFFFF; width:960px; border-left:#FFFFFF 0px solid; border-right:#FFFFFF 0px solid; }
+.header { padding:0px 6px; background:url(../images/substation/changping/images/pic_001.gif) repeat-x left top; line-height:26px; }
+.nav { background:url(../images/substation/changping/images/pic_003.gif) repeat-x left 1px; padding:1px 0px; line-height:36px; }
+.nav a:link { display:block; width:96px; text-align:center; font-size:14px; font-weight:bold; color:#FFFFFF; line-height:36px; border-right:#A6C3F7 1px solid; }
+.nav a:visited { display:block; width:96px; text-align:center; font-size:14px; font-weight:bold; color:#FFFFFF; line-height:36px; border-right:#A6C3F7 1px solid; }
+.nav a:hover { background:url(../images/substation/changping/images/pic_002.gif) repeat-x left 1px; text-decoration:none; }
+.nav a:active { background:url(../images/substation/changping/images/pic_002.gif) repeat-x left 1px; text-decoration:none; }
+.nav_bg { background:url(../images/substation/changping/images/pic_004.gif) repeat-x left top; height:5px; }
+.footer { background:url(../images/substation/changping/images/pic_026.gif) repeat-x left top; height:90px;}
+
+.b_s { border:#BDBDBD 1px solid; margin-top:0px; }
+.b_st { border:#BDBDBD 1px solid; border-top:none;}
+.b_sb { border:#BDBDBD 1px solid; padding:1px; }
+.title { background:url(../images/substation/changping/images/pic_020.gif) repeat-x left -1px; padding-left:10px; height:28px; line-height:28px; color:#2072BF; font-size:14px; font-weight:bold; }
+.sel { border:#BDBDBD 1px solid; margin-top:8px; background:url(../images/substation/changping/images/pic_025.gif) repeat-x left top; height:28px; }
+.article{ width:960px; background-color:#FFFFFF; border:0;}

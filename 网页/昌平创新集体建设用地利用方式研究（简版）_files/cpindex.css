@@ -1,0 +1,15 @@
+@import url("public.css");
+
+.right { padding-left:8px; width:298px; }
+.title_xzxk { background:url(../images/substation/changping/images/pic_018.gif) repeat-x left top; padding-left:10px; height:28px; line-height:28px; color:#2072BF; font-size:14px; font-weight:bold; }
+.title_right { background:url(../images/substation/changping/images/pic_020.gif) repeat-x left top; padding-left:10px; line-height:29px; color:#2072BF; font-size:14px; font-weight:bold; }
+.menu_cur { width:100px; line-height:30px; font-size:14px; font-weight:bold; text-align:center; color:#2072BF; cursor:pointer; }
+.menu { width:100px; line-height:30px; font-size:14px; font-weight:bold; text-align:center; color:#FFFFFF; cursor:pointer; }
+.title_left { background:url(../images/substation/changping/images/pic_013.gif) repeat-x left top; padding-left:10px; line-height:29px; color:#FFFFFF; font-size:14px; font-weight:bold;}
+.title_lan { padding-left:10px; line-height:29px; color:#2065C3; font-weight:bold;}
+.menu2_cur { width:150px; background:url(../images/substation/changping/images/pic_014.gif) repeat-x left top; line-height:27px; font-weight:bold; text-align:center; color:#2072BF; cursor:pointer; }
+.menu2 { width:150px; background:url(../images/substation/changping/images/pic_016.gif) repeat-x right top; line-height:27px; text-align:center; color:#666666; cursor:pointer; }
+.yslzcx th { background-color:#ECECEC; line-height:30px;}
+.yslzcx td { background:url(../images/substation/changping/images/pic_017.gif) repeat-x left bottom; line-height:29px; padding:0px 10px; text-align:center; }
+.bigon { background:url(../images/substation/changping/images/pic_007.gif) no-repeat left top; color:#FFFFFF; cursor:pointer; padding-top:2px; }
+.bigoff { background:url(../images/substation/changping/images/pic_008.gif) no-repeat left top; color:#FFFFFF; cursor:pointer; padding-top:2px; }

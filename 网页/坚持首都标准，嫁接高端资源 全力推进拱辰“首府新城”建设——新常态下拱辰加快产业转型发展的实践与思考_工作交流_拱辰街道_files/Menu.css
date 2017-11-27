@@ -1,0 +1,30 @@
+table.menu {
+	margin: 0px; padding: 0px; font-size: 12px;
+}
+td.menuNormal {
+	padding: 0px; color: rgb(255, 255, 255);
+}
+td.menuHover {
+	padding: 0px; color: rgb(255, 255, 255);
+}
+td.menuNormal2 {
+	padding: 0px; color: rgb(255, 255, 255);
+}
+td.menuHover2 {
+	padding: 0px; color: rgb(255, 255, 255);
+}
+div.menuNormal {
+	background: rgb(166, 1, 1); display: none; position: static;
+}
+div.menuHover {
+	display: inline; position: absolute; background-color: rgb(166, 1, 1);
+}
+a.menu:link {
+	text-align: center; color: rgb(255, 255, 255); text-decoration: none;
+}
+a.menu:visited {
+	text-align: center; color: rgb(255, 255, 255); text-decoration: none;
+}
+a.menu:hover {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}

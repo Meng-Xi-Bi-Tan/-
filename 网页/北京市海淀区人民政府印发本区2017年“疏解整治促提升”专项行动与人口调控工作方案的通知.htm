@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html><head>
+<script src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/hm.js"></script><script type="text/javascript" defer="defer" async="" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/va.js"></script><script type="text/javascript" defer="defer" async="" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/va.js"></script><script src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/hm.js"></script><script src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/hm.js"></script><script id="allmobilize" charset="utf-8" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/allmobilize.js"></script><style type="text/css"></style>
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<link rel="alternate" media="handheld" href="#" <meta="" charset="utf-8">
+<title>北京市海淀区人民政府印发本区2017年“疏解整治促提升”专项行动与人口调控工作方案的通知</title>
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<link href="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/bottom.css" rel="stylesheet" type="text/css">
+<link href="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/child.css" rel="stylesheet" type="text/css">
+<link href="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/jyy.css" rel="stylesheet" type="text/css">
+<link href="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/new_second.css" rel="stylesheet" type="text/css">
+<link href="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/head.css" rel="stylesheet" type="text/css">
+<script src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/jquery.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+<body>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4cd3483a8319709270f91b5f7fabae89";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4cd3483a8319709270f91b5f7fabae89";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!--<div class="lbj"></div>-->
+<div class="headBOX">
+<div class="header header2">
+  <div class="topLine2">
+      <div class="topWrap">
+      <ul>
+        <li style="width: 41px;"><a href="http://hdqw.bjhd.gov.cn/" target="_blank">区委&nbsp;|&nbsp;</a></li>
+        <li><a href="http://hdrd.bjhd.gov.cn/" target="_blank">区人大 |&nbsp;</a></li>
+        <li><a href="http://www.bjhd.gov.cn/" target="_blank">区政府&nbsp;|&nbsp;</a></li>
+        <li style="padding-left:0px"><a href="http://hdzx.bjhd.gov.cn/" target="_blank">区政协</a></li>
+      </ul>
+      </div>
+  </div>
+  <div class="topBox1">
+<!--
+    <div class="logoCon fleft">
+      <div class="logo"><a href="http://www.bjhd.gov.cn" target="_blank"></a></div>
+      <ul>
+        <li style="width: 41px;"><a href="http://hdqw.bjhd.gov.cn/" target="_blank">区委&nbsp;|&nbsp;</a></li>
+        <li><a href="http://hdrd.bjhd.gov.cn/" target="_blank">区人大 |&nbsp;</a></li>
+        <li><a href="http://www.bjhd.gov.cn" target="_blank">区政府&nbsp;|&nbsp;</a></li>
+        <li style="padding-left:0px"><a href="http://hdzx.bjhd.gov.cn/ " target="_blank">区政协</a></li>
+      </ul>
+    </div>
+-->
+    <div class="logoText fleft">
+<a href="http://www.bjhd.gov.cn/" target="_blank" class="sdzc"></a>
+<a href="http://www.bjhd.gov.cn/" target="_blank" class="bjhdlogo"></a></div>
+<!--
+    <form class="searchForm fright" action="http://202.85.216.207/?siteCode=1101080016" method="post" onsubmit="document.charset='utf-8'" target="_blank">
+      <input type="hidden" name="database" value="hd_qb" />
+      <table border="0" cellpadding="0" cellspacing="0" class="tav">
+        <tbody>
+          <tr>
+            <td valign="middle">
+              <input class="searchTxt fleft" value="请输入您要搜索的内容" onfocus="if(this.value=='请输入您要搜索的内容'){this.value='';}" onblur="if(this.value==''){this.value='请输入您要搜索的内容';}" type="text" name="qt" id="qt" />
+              <input class="searchBtn fleft" border="0" type="submit" value="" s="" />
+            </td>
+            <td><a href="http://www.beijing.gov.cn/" target="_blank" class="bjWin"></a> </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+-->
+    <form class="searchForm fright searchForm2" action="http://202.85.216.207/?siteCode=1101080016" method="post" onsubmit="document.charset='utf-8'" target="_blank">
+      <input name="database" value="hd_qb" type="hidden">
+      <table class="tav" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <td valign="middle">
+              <input class="searchTxt fleft" value="请输入您要搜索的内容" onfocus="if(this.value=='请输入您要搜索的内容'){this.value='';}" onblur="if(this.value==''){this.value='请输入您要搜索的内容';}" name="qt" id="qt" type="text">
+              <input class="searchBtn fleft" value="" s="" type="submit" border="0">
+            </td>
+            <td><a href="http://www.beijing.gov.cn/" target="_blank" class="bjhdWin"></a> </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+  </div>
+</div>
+<!--检索-->
+<div class="head">
+ 
+   
+    <div class="navbox">
+     <!-- <div class="navmain ju">
+        <div class="nav">
+          <div class="navtop"> <a href="/quqingjieshao/" target="_blank">区情</a> </div>
+		  <div class="nvpy">
+          <ul>
+            <li><a href="/quqingjieshao/" target="_blank">区情介绍</a></li>
+            <li class="navright"><a>行政区划</a></li>
+            <li><a href="/bumenfengcai/">部门介绍</a></li>
+            <li class="navright"><a>街镇风采</a></li>
+          </ul>
+		  </div>
+        </div>
+      </div>-->
+      <div class="navmain ju">
+        <div class="nav">
+          <div class="navtop1"> <a href="http://www.bjhd.gov.cn/xinwendongtai/" target="_blank">新闻</a> </div>
+		  <div class="navpy">
+          <ul>
+            <li><a href="http://www.bjhd.gov.cn/xinwendongtai/hdyw/" target="_blank">海淀要闻</a></li>
+            <li class="navright"><a href="http://www.bjhd.gov.cn/xinwendongtai/minshengxinwen/" target="_blank">热点关注</a></li>
+            <li><a href="http://www.bjhd.gov.cn/xinwendongtai/bumendongtai/" target="_blank">基层动态</a></li>
+            <li class="navright"><a href="http://www.bjhd.gov.cn/xinwendongtai/gwyxx/" target="_blank">国务院</a></li>
+          </ul>
+		  </div>
+        </div>
+      </div>
+      <div class="navmain">
+        <div class="nav">
+          <div class="navtop1"> <a href="http://www.bjhd.gov.cn/xinxigongkai/" target="_blank">公开</a> </div>
+		   <div class="navpy">
+          <ul>
+            <li><a href="http://www.bjhd.gov.cn/xinxigongkai/zuixingongkai/" target="_blank">最新公开</a></li>
+            <li class="navright"><a href="http://www.bjhd.gov.cn/xinxigongkai/tongzhigonggao_1/" target="_blank">通知公告</a></li>
+            <li><a href="http://www.bjhd.gov.cn/xinxigongkai/zcfg/zfwj/" target="_blank">政策法规</a></li>
+            <li class="navright"><a href="http://www.bjhd.gov.cn/xinxigongkai/ygcz/czxx/" target="_blank">阳光财政</a></li>
+          </ul>
+		  </div>
+        </div>
+      </div>
+      <div class="navmain">
+        <div class="nav">
+          <div class="navtop1"> <a href="http://www.bjhd.gov.cn/banshifuwu/" target="_blank">服务</a> </div>
+		<div class="navpy">
+          <ul>
+            <li><a href="http://zwfw.bjhd.gov.cn/root85_131/wsbs.htm" target="_blank">办事指南</a></li>
+            <li class="navright"><a href="http://zwfw.bjhd.gov.cn/pages/indexPages/toJdcx.action" target="_blank">办事进度</a></li>
+            <li><a href="http://zwfw.bjhd.gov.cn/root85_131/wsbs.htm" target="_blank">个人服务</a></li>
+            <li class="navright"><a href="http://zwfw.bjhd.gov.cn/root85_131/wsbs.htm" target="_blank">企业服务</a></li>
+          </ul>
+		  </div>
+        </div>
+      </div>
+      <div class="navmain">
+        <div class="nav">
+          <div class="navtop1"> <a href="http://www.bjhd.gov.cn/zhengminhudong/" target="_blank">互动</a> </div>
+		  <div class="navpy">
+          <ul>
+<li><a href="http://www.bjhd.gov.cn/ldxx/" target="_blank">领导信箱</a></li>
+
+            <li><a href="http://www.hdcdi.gov.cn/new2017/jdjb/jbts/" target="_blank">在线举报</a></li>
+            <li class="navright"><a href="http://96181.bjhd.gov.cn/lxxd/gr" target="_blank">咨询回应</a></li>
+            <li class="navright"><a href="http://www.bjhd.gov.cn/zhengminhudong/minyizhengji/" target="_blank">民意征集</a></li>
+            <!--<li class="navright"><a href="/zhengminhudong/zaixianfangtan/" target="_blank">在线访谈</a></li>-->
+          </ul>
+		  </div>
+        </div>
+      </div>
+      <div class="navmain qu">
+        <div class="nav">
+          <div class="navtop1"> <a href="http://www.bjhd.gov.cn/redianzhuanti/" target="_blank">专题</a> </div>
+          <ul>
+            <!--<li><a href="http://www.zhsp.gov.cn/" target="_blank">科技创新</a></li>
+            <li class="navright"><a href="/haidianwenhua/" target="_blank">文化</a><a href="/haidianjiaoyu/" target="_blank">教育</a></li>
+            <li><a href="/meili/" target="_blank">美丽海淀</a></li>
+            <li class="navright"><a href="/jsz/" target="_blank">智慧海淀</a></li>-->
+<!--<li><a href="/quqingjieshao/" target="_blank">海淀概况</a></li>-->
+<li><a href="http://hdy.bjhd.gov.cn/" target="_blank">科技创新</a></li>
+ <li class="navright"><a href="http://www.bjhd.gov.cn/mlhd2016/" target="_blank">美丽海淀</a></li>
+<li><a href="http://www.bjhd.gov.cn/haidianjiaoyu/" target="_blank">教育</a><a href="http://www.bjhd.gov.cn/haidianwenhua/" target="_blank">文化</a></li>
+<li class="navright"><a href="http://xinyong.bjhd.gov.cn/" target="_blank">信用海淀</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+</div>
+<script src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/jquery.js" type="text/javascript"></script>
+<script>
+						var browser = {        
+				            versions: function (obj) {
+				                var u = navigator.userAgent, app = navigator.appVersion;
+				                return {         //移动终端浏览器版本信息
+				                    trident搜索: u.indexOf('Trident') > -1, //IE内核
+				                    presto: u.indexOf('Presto') > -1, //opera内核
+				                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+				                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+				                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+				                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+				                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+				                    iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+				                    iPad: u.indexOf('iPad') > -1, //是否iPad
+				                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+				                };
+				            }(),
+				            language:(navigator.browserLanguage || navigator.language).toLowerCase()
+				        }
+				        if(browser.versions.mobile)
+				        {
+				            $('.headBOX').css({'width':'1032px'});
+				        }
+
+</script>
+<div class="pb">
+<div class="main">
+	<!--location-->
+	<div class="location">
+	首页&gt;&gt;公开&gt;&gt;政策法规&gt;&gt;政府文件
+
+	</div>
+	<div class="thirdCon">
+        <div class="leftCon">
+            <h1>北京市海淀区人民政府印发本区2017年“疏解整治促提升”专项行动与人口调控工作方案的通知</h1>
+            <div class="thirdDate"><span>2017年03月22日</span><span class="ml20">
+
+</span>    <span class="ml20" onclick="window.print()" style="cursor:pointer">打印本页</span>
+</div>
+            <div class="fontD">
+            	<span>【字体：<a href="javascript:doZoom(20)" class="fontBig">大</a> <a href="javascript:doZoom(16)" class="fontMid">中</a> <a href="javascript:doZoom(12)" class="fontSmall">小</a>】</span>
+                        </div>
+            <div class="thirdContent" style="font-size: 20px;">
+              
+            	<p align="justify">各有关单位：</p>
+<p align="justify">　　现将《海淀区2017年“疏解整治促提升”专项行动与人口调控工作方案》印发给你们，请认真贯彻执行。</p>
+<p align="justify">　　特此通知。　　</p>
+<p align="right">　　北京市海淀区人民政府</p>
+<p align="right">　　2017年3月7日</p>
+<p align="center">　　海淀区2017年“疏解整治促提升”专项行动与人口调控工作方案</p>
+<p align="justify">　　按照北京市“疏解整治促提升”专项行动部署，为加快全国科技创新中心核心区建设，大力疏解非首都功能，加强城市综合治理和精细化管理，优化提升首都核心功能，完成2017年全区常住人口调控目标，特制定本方案。</p>
+<p align="justify">　　一、工作目标</p>
+<p align="justify">　　根据北京市“疏解整治促提升”专项行动与人口调控工作部署，通过市区街（镇）三级联动、区域协同、统筹推进，
+推动海淀区非首都功能疏解功工作取得突破进展、低端产业有序退出、城乡环境秩序整治取得明显成效，全面聚焦中关村科学城建设，加快全国科技创新中心核心区
+建设，提高城市发展质量。</p>
+<p align="justify">　　二、工作思路</p>
+<p align="justify">　　坚持目标导向，按照“优化提升首都核心功能，治理大城市病，建设良好生态环境，进一步降低人口密度，减少常住
+人口总量”的要求，结合“大城管”体系建设、中关村科学城改造、城市规划建设管理水平提升等任务，适度超前，并有阶段安排。除完成市级任务外，还要解决当
+前海淀面临的突出问题，全面聚焦中关村科学城功能优化，市区街（镇）三级联动、相互对表，疏解整治和优化提升两手抓。</p>
+<p align="justify">　　坚持问题导向，针对制约区域发展的难点、痛点问题，聚焦支撑“减人”重点区域和重点项目，以中关村大街、宝山
+地区、三山五园地区、大上地地区以及永定河引水渠、地铁16号线、京张高铁、京藏高速沿线“一轴四片四线”涉及地区为重点，区域协同、综合施策、精准发
+力、统筹推进。</p>
+<p align="justify">　　坚持考核导向，进一步健全区级“双调度”“双台账”“双督导”和“双考核”机制，部门街（镇）两线发力，加强专项行动全过程督查督导，部门牵头、街镇主责，强化综合整治部门联合执法机制，确保全区人口总量控制、人口密度下降。</p>
+<p align="justify">　　加强工作统筹，强化各专项行动的区级统筹、资金统筹、资源统筹，重点围绕非首都功能疏解、城市环境综合整治，实现城市空间“留白增绿”“腾笼换鸟”，实现人随功能走、人随业态走，改善人居环境，提升城市发展质量。</p>
+<p align="justify">　　加强信息共享，综合运用大数据分析和科技手段，提高人口动态监测能力，加强公安、统计部门人口信息平台数据共享，提高城市治理精细化和人口调控科学化水平。</p>
+<p align="justify">　　三、行动任务</p>
+<p align="justify">　　（一）违法建设拆除专项行动</p>
+<p align="justify">　　严厉打击违法建设行为，保持高压态势，重点拆除五大区域（集体土地，市属和区属国有企业用地，城乡结合部地
+区，重大工程建设区，城市基础设施建设区）的违法建设，严格执行对违法建设停止提供公共服务等措施。多管齐下创新拆违举措，通过科技手段、网格化力量及时
+发现新生违法建设，确保新生违法建设零增长。坚持以奖促拆和精准拆违，将调控效果纳入拆违考评。加强拆后腾退空间管理力度，合理规划利用。全年拆除违法建
+设400万平方米。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区城管执法监察局</p>
+<p align="justify">　　责任人：王志伟</p>
+<p align="justify">　　责任单位：公安海淀分局、国土海淀分局、区国资委、区农委、区国税局、区地税局、工商海淀分局、区食药局、区人力社保局、区安监局、海淀消防支队、区水务局，各街镇</p>
+<p align="justify">　　（二）占道经营、无证无照经营和“开墙破洞”整治专项行动</p>
+<p align="justify">　　1.依法严格查处占道经营违法行为。集中整治社会高度关注、群众反映强烈的占道经营行为，有效遏制占道经营乱象，完成全区占道经营违法行为查处任务量。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区城管执法监察局</p>
+<p align="justify">　　责任人：王志伟</p>
+<p align="justify">　　责任单位：各街镇</p>
+<p align="justify">　　2.持续排查无证无照经营行为。严控新增无照经营，其中重点地区实现无照经营商户零增长、压减现有存量至50%，配合有关许可部门严控“七小”业态增长。</p>
+<p align="justify">　　主管区领导：孟景伟</p>
+<p align="justify">　　主要责任单位：工商海淀分局</p>
+<p align="justify">　　责任人：刘春梅</p>
+<p align="justify">　　责任单位：区食药局，各街镇</p>
+<p align="justify">　　3.大力推进“开墙破洞”专项整治工作。坚持“严控新生、分类销账、街镇主体、协同联动”的原则，全面梳理“开墙破洞”问题线索台账，开展清理整治。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区城管指挥中心</p>
+<p align="justify">　　责任人：李伟</p>
+<p align="justify">　　责任单位：各有关委办局，各街镇</p>
+<p align="justify">　　（三）城乡结合部综合整治专项行动</p>
+<p align="justify">　　加大城乡结合部人口倒挂村整治力度，重点对16个市级挂账城乡结合部重点地区开展综合整治工作，采取市级挂账
+和区级重点关注、持续整治的方式，推动城乡结合部重点地区开展社会治安综合治理，通过对违法建设、治安秩序、消防安全、安全生产违法行为、违法经营、环境
+卫生、食品药品安全、违法出租房屋等突出问题的专项整治，确保城乡结合部重点地区各类突出问题得到有效治理，治安、生产、经营秩序明显好转，群众居住生活
+环境明显改善，人口流动理性有序。</p>
+<p align="justify">　　主管区领导：孟景伟、王际祥、郑海洋、吴计亮、梁爽</p>
+<p align="justify">　　主要责任单位：区综治办、区农委、公安海淀分局、海淀消防支队</p>
+<p align="justify">　　责任人：王际宝、王桐慧、葛士亮、史翀</p>
+<p align="justify">　　责任单位：区实有人口办、区食药局、工商海淀分局、区城管执法监察局（查违办）、区安监局、区房管局、区市政市容委，各街镇</p>
+<p align="justify">　　（四）中心城区老旧小区综合整治专项行动</p>
+<p align="justify">　　加快毛纺北小区等老旧小区综合整治，涉及地下空间清理、违法建设拆除、停车设施、社区服务等，改善居民环境。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区住建委</p>
+<p align="justify">　　责任人：张世芳</p>
+<p align="justify">　　责任单位：区民防局、清河街道</p>
+<p align="justify">　　（五）中心城区重点区域整治提升专项行动</p>
+<p align="justify">　　在全区“一轴四片四线”涉及地区为重点整治区域的基础上，进一步统筹力量，聚焦五个市级重点整治区域。</p>
+<p align="justify">　　1.中关村大街改造提升工程。推进中关村大街沿线空间置换，推动传统电子市场等商业业态转型升级。按照“科技风、创新路、国际范”规划蓝图，制定大街交通、市政市容、公共绿地等的升级改造方案。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：中关村大街建设办公室、区园林绿化局、区住建委</p>
+<p align="justify">　　责任人：沙海江、林航、张世芳</p>
+<p align="justify">　　责任单位：区市政市容委，中关村大街沿线各街镇</p>
+<p align="justify">　　2.玉泉山周边地区。对玉泉山周边地区开展规划和环境整治专项行动，改善道路交通、园林绿化、市政市容、河湖水系等综合环境状况。</p>
+<p align="justify">　　主管区领导：龚宗元、吴计亮、梁爽</p>
+<p align="justify">　　主要责任单位：规划海淀分局、区住建委、国土海淀分局</p>
+<p align="justify">　　责任人：李景祥、张世芳、王桂忠</p>
+<p align="justify">　　责任单位：各有关委办局，各有关街镇</p>
+<p align="justify">　　3.宝山地区整体改造项目。推进《宝山村整体改造规划调整方案》通过审核，有效改善地区环境，实现地区产业的转型升级和人口调控任务。</p>
+<p align="justify">　　主管区领导：龚宗元、李长萍、吴计亮</p>
+<p align="justify">　　主要责任单位：规划海淀分局、海国投公司、四季青镇</p>
+<p align="justify">　　责任人：李景祥、林屹、陈爱清</p>
+<p align="justify">　　责任单位：各有关委办局</p>
+<p align="justify">　　4.圆明园21号院（二河开地区）拆除腾退工作。充分发挥职能部门和属地街道的联动作用，在产权单位首农集团配合下，依法行政、加强执法、从严从快、平稳有序推进拆除腾退工作。</p>
+<p align="justify">　　主管区领导：龚宗元、吴计亮、梁爽</p>
+<p align="justify">　　主要责任单位：青龙桥街道、海淀镇、区城管执法监察局</p>
+<p align="justify">　　责任人：王方、苏建华、王志伟</p>
+<p align="justify">　　责任单位：各有关委办局</p>
+<p align="justify">　　5.永定河引水渠沿岸整治（海淀段）。永定河引水渠（海淀段）西起五环路永引河西侧、东至京门铁路（大台线），长约5公里，永引渠两侧各50米，属水源保护范围。完成违法建设拆除任务，逐步改善周边环境，消除安全隐患。</p>
+<p align="justify">　　主管区领导：吴计亮、梁爽</p>
+<p align="justify">　　主要责任单位：玉渊潭农工商总公司、四季青镇、田村路街道</p>
+<p align="justify">　　责任人：杨琪、陈爱清、杜宇</p>
+<p align="justify">　　责任单位：各有关委办局</p>
+<p align="justify">　　（六）疏解一般制造业和“散乱污”企业治理专项行动</p>
+<p align="justify">　　1.加快一般制造业调整退出。加快一般制造业底数梳理，建立有生产环节的工业企业、不符合首都功能定位和全国
+科技创新中心核心区定位的一般制造业企业及污染企业三本台账，研究并制定《海淀区2017年工业企业疏解任务分解工作实施方案》，持续推进一般制造业企业
+关停退出，基本实现四环内一般性制造企业中的生产制造环节全部退出。</p>
+<p align="justify">　　主管区领导：李长萍</p>
+<p align="justify">　　主要责任单位：区经信办</p>
+<p align="justify">　　责任人：何建吾</p>
+<p align="justify">　　责任单位：区环保局、区安监局，各有关街镇</p>
+<p align="justify">　　2.推进“散乱污”企业疏解清理整治工作。严格落实市区两级关于清理整治违法违规排污及生产经营行为工作有关
+要求，按照《海淀区清理整治违法违规排污及生产经营行为工作方案》，分层次、有梯度清理整治位于城乡结合部、城中村等流动人口聚居、安全隐患突出的重点区
+域违规“散乱污”企业，带动城市内部功能重组和人口疏解。完成清理整治违法违规排污及生产经营行为企业90家，按照更严格的资源环境标准，支持一批存量企
+业技改升级。加大联合执法力度，通过对企业的环保审批手续、环保设施以及排放达标情况进行检查，对手续不全或超过污染物排放标准的依法予以处罚，对情节严
+重的报经有关部门批准责令停业、关闭。发挥经济手段的作用，严格执行差别化水、电、气、热价格等方式，提高“散乱污”企业运营成本，推动实现清理整治目
+标。建立有奖举报制度，鼓励公众积极支持和参与清理整治工作。</p>
+<p align="justify">　　主管区领导：李长萍</p>
+<p align="justify">　　主要责任单位：区经信办</p>
+<p align="justify">　　责任人：何建吾</p>
+<p align="justify">　　责任单位：区环保局、区安监局，各有关街镇</p>
+<p align="justify">　　（七）市场整治提升专项行动</p>
+<p align="justify">　　1.推进市场整治提升。制定完善“十三五”期间海淀区市场整治提升工作计划，推进市场整治提升工作。积极引导市场在北京周边、津冀地区建设多功能物流和仓储基地，推动有外迁意向的企业继续向京外转移。</p>
+<p align="justify">　　主管区领导：陈双</p>
+<p align="justify">　　主要责任单位：区商务委</p>
+<p align="justify">　　责任人：王澎</p>
+<p align="justify">　　责任单位：海淀区有形市场调整疏解联席会工作组成员单位</p>
+<p align="justify">　　2.加快锦绣大地转型升级。制定锦绣大地物流港转型升级方案，规范业态发展模式，适度控制发展规模，将锦绣大地商务在线楼和锦绣大地物流港打造成京城涉农电子商务总部基地，进一步减少锦绣大地周边车流、人流聚集。</p>
+<p align="justify">　　主管区领导：陈双、李长萍</p>
+<p align="justify">　　主要责任单位：区商务委、海国投公司</p>
+<p align="justify">　　责任人：王澎、林屹</p>
+<p align="justify">　　责任单位：四季青镇</p>
+<p align="justify">　　3.不断完善便民服务体系建设。提高社区商业便民服务水平，支持建设规范化、连锁化、品牌化的便利店（超市）、菜市场、餐饮、便民菜店等生活性服务业网点不少于100个。</p>
+<p align="justify">　　主管区领导：陈双</p>
+<p align="justify">　　主要责任单位：区商务委</p>
+<p align="justify">　　责任人：王澎</p>
+<p align="justify">　　责任单位：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区发展改革委、区国资委、区农委、区社会办、区综治办、区财政局、区城管执法监察局、公安海淀分局、西区邮政管理局、交通支队，各街镇</p>
+<p align="justify">　　（八）疏解部分公共服务功能专项行动</p>
+<p align="justify">　　1.推动部分教育功能、培训机构疏解。严禁扩大区属职业学校办学规模，继续压缩区属中等职业学校区内办学规
+模，支持其教学环节向远郊区和津冀地区有序疏解转移。大力发展互联网教育，减少培训人员在区内聚集。加强民办培训机构管理，停止审批面向全国招生的一般性
+培训机构，引导研究生考试、语言类等级考试、公务员考试等培训机构向区外疏解转移。通过严格年检等措施，加强民办培训机构管理，严厉查处违规办学。通过联
+合办学、品牌输出、互联网平台等方式，统筹推动优质教育资源服务和辐射周边区、津冀地区发展。支持配合区内普通高等学校本科教育有序迁出，老校区向研究生
+培养基地、研发创新基地和重要智库转型。配合做好北京工商大学、北京城市学院、北京电影学院等高校本科教育功能整体迁出。</p>
+<p align="justify">　　主管区领导：刘圣国</p>
+<p align="justify">　　主要责任单位：区教委</p>
+<p align="justify">　　责任人：陆云泉</p>
+<p align="justify">　　责任单位：工商海淀分局、区外联中心，各有关街镇</p>
+<p align="justify">　　2.部分医疗功能疏解。严禁在五环内新设综合性医疗机构，其他类别的医疗机构（中医医疗机构、社区卫生服务机
+构除外）按区域设置，有序引导南部医疗机构向五环外地区转移，全区医疗机构床位控制在2.95万张以内。支持北部地区村卫生室改建为社区卫生站，提升北部
+地区医疗健康服务能力。推动优质医疗卫生资源通过整体或部分搬迁、办分院、对口支援、共建共管等方式从海淀区向外疏解和发展，促进医疗卫生资源均衡布局。</p>
+<p align="justify">　　主管区领导：刘圣国</p>
+<p align="justify">　　主要责任单位：区卫计委</p>
+<p align="justify">　　责任人：甄蕾</p>
+<p align="justify">　　责任单位：区外联中心、区民政局及有关部门，各街镇</p>
+<p align="justify">　　（九）地下空间和群租房整治专项行动</p>
+<p align="justify">　　1.清理整治普通地下室。完成普通地下室三年综合整治市级挂账任务，落实《海淀区关于普通地下室规范使用的指导意见（试行）》，推动普通地下室规范使用。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区房管局</p>
+<p align="justify">　　责任人：张世芳</p>
+<p align="justify">　　责任单位：海淀消防支队、公安海淀分局、区城管执法监察局、工商海淀分局、规划海淀分局、区卫计委、区财政局、区社会办、区农委、区住建委、区民防局、区国资委、区地税局、区安监局、区综治办、区实有人口办，各街镇</p>
+<p align="justify">　　2.整治腾退人防工程。全面综合整治人防工程，在全区范围内切实消除人防工程散租住人现象，清理整治范围要向人防工程内集体宿舍、小旅馆等进一步延伸。打击违法违规使用人防工程行为，加强腾退后空间管控。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区民防局</p>
+<p align="justify">　　责任人：高毅</p>
+<p align="justify">　　责任单位：区住建委、区房管局、区财政局、公安海淀分局、工商海淀分局、海淀消防支队、区卫计委，各街镇</p>
+<p align="justify">　　3.持续开展群租房综合整治。联合区实有人口办、公安、工商、消防、卫生等职能部门和属地街镇、单位，严厉整
+治清理隔断群租、违法出租等现象。依法加强违法出租大院、出租民房的清理整治。依托“趸租+补贴”的公租房政策，创新群租房管理利用方式，有效拓宽管控存
+量房屋空间的途径。以及时处理群众举报投诉为牵动，建立健全群租房整治长效机制，有效防止群租行为反弹。</p>
+<p align="justify">　　主管区领导：龚宗元、王际祥、梁爽</p>
+<p align="justify">　　主要责任单位：区实有人口办、区房管局</p>
+<p align="justify">　　责任人：孙金春、张世芳</p>
+<p align="justify">　　责任单位：公安海淀分局、区农委、区国税局、区地税局，各街镇</p>
+<p align="justify">　　（十）棚户区改造、直管公房及商改住清理整治专项行动</p>
+<p align="justify">　　1.加快推进棚户区改造。对棚户区进行全面系统梳理，建立分年度台账，深化改造实施路径，积极拓展资金来源渠
+道，完成笑祖塔院、树村等改造收尾，启动双新村、魏公村小区等改造腾退。完成5000户棚户区改造任务。探索运用以补促管、政府趸租、租赁代理等措施，统
+筹全区适宜低端人口聚集房源的规范化管理和定向使用。积极拓展融资渠道。引进社会资本积极参与棚改，争取并用好政策性资金、贷款，多渠道筹集改造建设资
+金。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区住建委</p>
+<p align="justify">　　责任人：张世芳</p>
+<p align="justify">　　责任单位：各有关委办局，各有关街镇</p>
+<p align="justify">　　2.推进直管公房转租转借清理整治。完善直管公房转租转借清理整治工作机制，全面摸清底数，动态更新区直管公房台账数据。全面排查和消除直管公房转租、转借及改变用途行为，完善分配管理机制。研究清理商改住存量政策，严格控制商改住增量，加强商业办公用房监管。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区房管局、规划海淀分局</p>
+<p align="justify">　　责任人：张世芳、李景祥</p>
+<p align="justify">　　责任单位：各有关委办局，各有关街镇</p>
+<p align="justify">　　（十一）北部地区疏解整治提升专项行动</p>
+<p align="justify">　　重点加强地铁16号线沿线地区村镇的违法建设、流动人口、低端产业管控。持续推进城乡结合部改造工作，对不符
+合首都功能定位、合同不规范、违法建设多的企业进行整治，推进镇、村腾退收回的非违建房屋转型升级，优先用于公共服务或产业服务，将其作为对镇人口指标任
+务完成情况考核的重要评估项。坚持走城乡统筹发展道路，切实做好腾退、安置、村庄改造、一镇一园、特色小镇建设工作。推进创客公寓、021地块租赁房等集
+体产业项目全面完工。</p>
+<p align="justify">　　主管区领导：龚宗元、吴计亮</p>
+<p align="justify">　　主要责任单位：区农委、北部办、区城管执法监察局</p>
+<p align="justify">　　责任人：王桐慧、沙海江、王志伟</p>
+<p align="justify">　　责任单位：各有关委办局，各有关街镇</p>
+<p align="justify">　　（十二）依法依规用人用工检查专项行动</p>
+<p align="justify">　　围绕非首都功能疏解与人口规模调控目标，从“签合同、上保险、保工资”等方面，对辖区内的企业开展拉网式、全覆盖联合执法检查，规范单位用工行为，加大劳动监察执法力度，加大社会保险日常稽核巡查力度及扩面征缴工作力度。</p>
+<p align="justify">　　主管区领导：孟景伟</p>
+<p align="justify">　　主要责任单位：区人力社保局</p>
+<p align="justify">　　责任人：李卫华</p>
+<p align="justify">　　责任单位：工商海淀分局、区地税局，各街镇</p>
+<p align="justify">　　四、保障措施</p>
+<p align="justify">　　（一）落实并完善“四双”工作机制</p>
+<p align="justify">　　1.强化“双调度”。定期组织召开各牵头部门、街镇双周调度会、月调度会，掌握各单位工作落实和进展情况，采取例会调度、现场调度、专题调度等多种方式，协调解决工作中遇到的矛盾和难题。</p>
+<p align="justify">　　主管区领导：孟景伟、龚宗元、王际祥、郑海洋、陈双、李长萍、吴计亮、刘圣国、梁爽</p>
+<p align="justify">　　主要责任单位：区实有人口办、区发展改革委、区统计局等各重点任务牵头单位</p>
+<p align="justify">　　责任人：孙金春、李泉、王凌志</p>
+<p align="justify">　　责任单位：各重点任务牵头单位，各街镇</p>
+<p align="justify">　　2.细化“双台账”。突出强化属地职能，将统计口径分劈的人口指标分解至街镇；同时，明确各行业主管部门在疏解、整治、提升任务中涉及的调减人口数量。各牵头部门和街镇根据人口调控折子任务，分别建立工作台账，细化具体任务点位、涉及人口规模、完成时限和工作举措等。</p>
+<p align="justify">　　主管区领导：孟景伟、王际祥</p>
+<p align="justify">　　主要责任单位：区统计局、区实有人口办、区发展改革委</p>
+<p align="justify">　　责任人：王凌志、孙金春、李泉</p>
+<p align="justify">　　责任单位：各重点任务牵头单位，各街镇</p>
+<p align="justify">　　3.突出“双督导”。充分发挥疏功能减人口工作督导组“监督员、信息员、协调员”作用，围绕重点任务、重要点位，面向各街镇、各委办局，进行巡回督导和实地检查，确保人口调控任务按职责分工、按定量指标、按时间节点，同步推进落实。</p>
+<p align="justify">　　主管区领导：孟景伟、王际祥</p>
+<p align="justify">　　主要责任单位：区疏减督导组（1-5组）</p>
+<p align="justify">　　责任人：张建水、郑镇波、张西渭、李旭东、赵京芳</p>
+<p align="justify">　　责任单位：区监察局、区委区政府督查室、区绩效办、各重点任务牵头单位，各街镇</p>
+<p align="justify">　　4.严格“双考核”。从各部门单项重点任务疏解人口台账、各街镇统计口径常住人口年度调控指标两个方面，进行双向打分、双向考核，直接与年度绩效考核挂钩；建立人口调控转移支付专项资金，对完成人口调控指标任务的街镇予以奖励。</p>
+<p align="justify">　　主管区领导：孟景伟、王际祥</p>
+<p align="justify">　　主要责任单位：区实有人口办、区绩效办、区统计局、区监察局、区委组织部</p>
+<p align="justify">　　责任人：孙金春、张红林、王凌志、刘志平、甘丽平</p>
+<p align="justify">　　责任单位：各重点任务牵头单位，各街镇</p>
+<p align="justify">　　（二）健全人口数据动态监测体系</p>
+<p align="justify">　　按月向北京市人口动态监测平台上报反映人口调控各项工作的明细台账。按行业和街镇辖区加强人口结构与布局分
+析，按统计口径核定各街镇人口基数，通过抽样调查、大数据监测等措施，完善人口数据动态监测和共享机制。加强人口基础数据资源整合，每月报送全区人口动态
+监测情况及手机大数据分街镇的人口变化情况，为街镇开展工作提供数据支撑。加强与市统计局的协调沟通，探索推动在抽样调查中核减“服务保障中央功能任务”
+带来常住人口增加的有效方法。</p>
+<p align="justify">　　主管区领导：孟景伟</p>
+<p align="justify">　　主要责任单位：区统计局</p>
+<p align="justify">　　责任人：王凌志</p>
+<p align="justify">　　责任单位：各委办局，各街镇，各台账填报单位</p>
+<p align="justify">　　（三）加强央属、军产和市属单位功能疏解整治提升服务</p>
+<p align="justify">　　建立完善与辖区内央属、市属单位及部队所属单位的服务对接机制，及时了解掌握有关单位功能疏解意向及计划，做
+好服务保障。建立与辖区内央属、市属单位及部队所属单位相关的功能疏解动态直报机制，在疏解整治各项任务推进过程中，对产权单位涉及央属、市属单位及部队
+所属单位的疏解整治项目，各行业主管部门及街镇应及时建立项目台账，积极与产权单位沟通协调，了解掌握产权单位疏解整治意向，要完善“四个服务”工作机
+制，统筹疏解整治和优化提升服务，为驻区单位发展提供良好环境和便利条件，改进提升服务质量和水平，对协调推进难度大的项目及时报请市政府协调解决。</p>
+<p align="justify">　　主管区领导：孟景伟</p>
+<p align="justify">　　主要责任单位：区发展改革委</p>
+<p align="justify">　　责任人：李泉</p>
+<p align="justify">　　责任单位：区外联中心、区民政局、各有关委办局，各街镇</p>
+<p align="justify">　　（四）加强水资源管理</p>
+<p align="justify">　　将控制人口规模与节约用水结合起来，坚持以水定人、量水发展，落实最严格水资源管理制度。摸清自备水井点位，加强自备井管控，严厉打击非法取用地下水行为。对用水总量和用水指标从严管理，对超计划加价水费征收工作进行严格考核。严控违法建设用水行为，加大执法力度。</p>
+<p align="justify">　　主管区领导：吴计亮</p>
+<p align="justify">　　主要责任单位：区水务局</p>
+<p align="justify">　　责任人：李劲松</p>
+<p align="justify">　　责任单位：各有关委办局，各街镇</p>
+<p align="justify">　　（五）加强户籍、集体户、学籍管理，落实居住证制度，稳妥推进积分落户</p>
+<p align="justify">　　严格管理集体户口，严控非直系亲属落户、一址多户。严格执行户籍准入制度，严把户籍人口准入关。加强大学生户
+籍管理及清理工作，准确掌握辖区高等院校学生户籍人口数量，及时办理应届毕业生、滞留大学生户口迁出手续，协助推进高校学生分校区落户工作。每月报送区实
+有人口基本情况。进一步完善义务教育免试就近入学政策，加大对非京籍适龄儿童少年接受义务教育数量的调控，完善非本市户籍适龄儿童少年在海淀接受义务教育
+证明证件材料审核细则，研究学区房学位供给政策。户籍人口计划生育政策符合率97%以上。</p>
+<p align="justify">　　主管区领导：郑海洋、刘圣国</p>
+<p align="justify">　　主要责任单位：公安海淀分局、区教委、区卫计委</p>
+<p align="justify">　　责任人：葛士亮、陆云泉、甄蕾</p>
+<p align="justify">　　责任单位：各有关委办局，各街镇</p>
+<p align="justify">　　（六）加强房屋大数据服务</p>
+<p align="justify">　　按照实现全区既有建筑“底数清、情况明”，为人口调控、产业发展提供建筑物大数据支撑的目标，在区房屋全生命
+周期管理系统的基础上，升级开发覆盖全区建筑物的“海淀区既有建筑物信息实时动态管理系统”，补充国有土地上的未登记建筑、临时建筑，以及集体土地上的房
+屋建筑信息。建立依托街镇网格开展建筑物数据常态化更新机制，形成横向连接各委办局、纵向延伸街镇社区的建筑信息网络，提供整合建筑物基础信息的二维、三
+维地图及影像图的信息化智慧服务。</p>
+<p align="justify">　　主管区领导：龚宗元</p>
+<p align="justify">　　主要责任单位：区房管局</p>
+<p align="justify">　　责任人：张世芳</p>
+<p align="justify">　　责任单位：各有关委办局，各有关街镇</p>
+<p align="justify">　　（七）加强资金管理使用</p>
+<p align="justify">　　加大资金统筹力度，整合集成市、区两级资金，切实做好我区疏功能减人口促发展各项支持政策的资金保障工作，通
+过加强政策引导和优化资金支持方式，推动我区疏解减人工作有效开展。积极发挥财政职能作用，加强资金监管和预算执行控制，督促指导主管部门做好项目管理，
+提高财政资金使用效益。</p>
+<p align="justify">　　主管区领导：孟景伟</p>
+<p align="justify">　　主要责任单位：区财政局</p>
+<p align="justify">　　责任人：程培衡</p>
+<p align="justify">　　责任单位：各有关委办局</p>
+<p align="justify">　　（八）加强专项行动执法保障，规范综合执法联动机制</p>
+<p align="justify">　　加大执法力度，坚持法治思维，依法开展专项行动。加强对社会治安秩序、市场经营秩序和城市环境秩序专项行动的
+执法保障，规范完善部门综合执法联动机制，以法律手段促进人口调控工作持续推进。强化法律服务支撑保障，早安排、早介入，运用法治方法解决难题、防范风
+险。加强对部门、街镇执法工作监督指导，协调有执法权的区属单位加大执法力度。</p>
+<p align="justify">　　主管区领导：孟景伟、王际祥</p>
+<p align="justify">　　主要责任单位：区法制办、区司法局、区综治办、区城管执法监察局</p>
+<p align="justify">　　责任人：王勇禄、周玉鑫、王际宝、王志伟</p>
+<p align="justify">　　责任单位：各委办局，各街镇</p>
+<p align="justify">　　（九）加强信访维稳工作，保持社会和谐稳定</p>
+<p align="justify">　　强化责任担当，健全完善信访维稳机制，积极预防和妥善处置群体性事件，把不稳定因素解决在基层、化解在萌芽；
+创新工作机制和管理模式，实现部门协同、上下联动，增强信访维稳的系统性和有效性，切实提高工作能力和社会管控能力；加强基层工作的服务力度，发挥好百姓
+和政府之间的沟通桥梁作用，依法依规做好信访维稳工作，确保社会和谐稳定。</p>
+<p align="justify">　　主管区领导：王际祥、郑海洋、梁爽</p>
+<p align="justify">　　主要责任单位：区信访办、区维稳办、公安海淀分局</p>
+<p align="justify">　　责任人：赵立华、王勇禄、葛士亮</p>
+<p align="justify">　　责任单位：各委办局，各街镇</p>
+<p align="justify">　　（十）加强舆论宣传引导</p>
+<p align="justify">　　做好宣传工作，营造良好的社会氛围。加强同新闻媒体的联络沟通，全面解读协同发展相关政策，总结专项行动的典型经验，开展正面宣传报道，展示先进工作成果，引导舆论导向，获得人民群众的支持。</p>
+<p align="justify">　　主管区领导：陈名杰</p>
+<p align="justify">　　主要责任单位：区委宣传部</p>
+<p align="justify">　　责任人：黄英</p>
+<p align="justify">　　责任单位：各委办局，各街镇</p>
+<p align="justify">　　五、工作要求</p>
+<p align="justify">　　（一）突出重点，统筹兼顾。要根据市委市政府工作部署，结合全区经济社会发展形势，紧紧围绕加快推动非首都功
+能疏解和城市综合治理，不能就人口减人口，要把功夫放在疏解和治理上，以重点功能区建设和“减人、添秤、服务”为重点，各专项行动统筹挂钩，出实招、下苦
+功。在抓紧落实2017年专项行动方案的基础上，积极推进调查研究，摸清各专项行动计划底账，做好2018—2020年专项行动计划，确保早启动、早部
+署、早落实。</p>
+<p align="justify">　　（二）加强联动，落实责任。市区联动、区域协同、部门联动、统筹推进，全面落实年度疏解任务。制定详细的任务台账和清单，精准到每个点位、具体到每个单位、落实到每个岗位，实行更加严格的上账销账动态管理。</p>
+<p align="justify">　　（三）全面调动，创新治理。建立健全党委领导、政府主导、社会协同、公众参与、共建共享的社会治理格局。强化
+部门综合执法机制，完善街镇与职能部门协调联动机制，广泛开展“比、学、赶、帮、超”活动，创新、落实督查督办责任制和评估机制。坚持问题导向，提高人口
+调控的精准度和实效性。</p>
+                <div class="downCon">
+				<script language="JavaScript" type="text/javascript">
+            var file_appendix='<a href="./P020170525365233957561.doc">北京市海淀区人民政府印发本区2017年“疏解整治促提升”专项行动与人口调控工作方案的通知.doc</a>';
+            if(file_appendix!=""){
+            document.write("<h2>文件下载：</h2>");
+            }
+            }
+            </script>
+                   
+                 <div><a href="http://www.bjhd.gov.cn/xinxigongkai/zcfg/zfwj/201705/P020170525365233957561.doc">北京市海淀区人民政府印发本区2017年“疏解整治促提升”专项行动与人口调控工作方案的通知.doc</a></div>
+                </div>
+            </div>
+              <!-- GWD SHARE BEGIN 底部横条-->
+	<div class="mainShareDiv_24">
+		<a href="javascript:;" target="_blank"><div id="shareLeftLink"></div></a>
+		<div id="gwdShare_con_1">
+			<div class="gwdshare_t gwds_tools_24 get-codes-gwdshare">
+				<a class="gwds_people gwds_bottom_leftbutton" href="#"></a>
+				<a class="gwds_tsina gwds_bottom_centerbutton" href="#"></a>
+				<a class="gwds_tqq gwds_bottom_centerbutton" href="#"></a>
+				<span class="gwds_more gwds_bottom_more"></span>
+			</div>
+		</div>
+	</div>
+            <!-- GWD SHARE END -->
+
+        </div>
+        <div class="rightCon">
+            <!--热点排行-->
+            <div class="rightRound">
+                <div class="tit">
+                    <h3>热点排行</h3>
+                </div>
+                <div class="con">
+                    <ul class="thirdRL">
+                        
+                        <li><a href="http://www.bjhd.gov.cn/redianpaihang/201706/t20170623_1385782.htm" target="_blank">2017年斯帝卡少年英才积分赛"超级大循环"（威凯体育站）开始报名</a></li>
+                        
+                        <li><a href="http://www.bjhd.gov.cn/redianpaihang/201706/t20170623_1385530.htm" target="_blank">关于申报2017年度商业便民服务设施投资补助项目的补充通知</a></li>
+                        
+                        <li><a href="http://www.bjhd.gov.cn/redianpaihang/201706/t20170615_1377158.htm" target="_blank">海淀区关于调整社会保险补缴办理流程的通知</a></li>
+                        
+                        <li><a href="http://www.bjhd.gov.cn/redianpaihang/201706/t20170612_1376241.htm" target="_blank">关于开展2017年能效领跑者试点工作的通知</a></li>
+                        
+                        <li><a href="http://www.bjhd.gov.cn/redianpaihang/201706/t20170602_1374285.htm" target="_blank">关于专项资金申报的重要提示</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!--相关链接-->
+            <div class="rightRound thirdRC">
+                <div class="tit">
+                    <h3>相关链接</h3>
+                </div>
+                <div class="con">
+                    <ul class="thirdRL">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="clear:both;"></div>
+  <div style="clear:both;"></div>
+<div class="bottom">
+<div class="bottom_con">
+<div class="bottom_con_left"><div class="bottom_con_top"><script type="text/javascript">document.write(unescape("%3Cspan
+ id='_ideConac' %3E%3C/span%3E%3Cscript 
+src='http://dcs.conac.cn/js/01/008/0000/60467459/CA010080000604674590001.js'
+ type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="http://bszs.conac.cn/sitename?method=show&amp;id=1434701958FF25E3E053022819ACE731" target="_blank"><img id="imgConac" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/red.png" data-bd-imgshare-binded="1" vspace="0" hspace="0" border="0"></a></span><script src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/CA010080000604674590001.js" type="text/javascript"></script><span id="_ideConac"></span></div><a href="javascript:;" class="btmLogo fleft"><img src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/i9.png"></a><div style="float:left;margin:28px 0 0 15px;"><script id="_jiucuo_" sitecode="1101080016" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/jiucuo.js"></script><span id="_span_jiucuo"><img onclick="Link('1101080016')" style="margin:0;border:0;cursor: pointer;" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/jiucuo.png"></span></div></div>
+<div class="bottom_con_right">
+<p>版权所有：北京市海淀区人民政府  京ICP备05083640号</p>
+<p>主办：中共海淀区委宣传部&nbsp;&nbsp;运行管理：海淀区新闻中心</p>
+<p>地址：北京市海淀区西四环北路11号&nbsp;&nbsp;&nbsp;咨询热线：96181</p>
+<div style="text-align:right;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802021701" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/icon_ga.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#98afbd;">京公网安备 11010802021701号</p></a>
+		 	</div>
+</div>
+</div>
+
+<div id="yx_bar"> 
+<div class="yx_mbar_tab">
+<div class="yx_mbar_tab_logo yx_sysico yx_19_icon" id="yx_19" style="display: none;"></div>
+</div> 
+<div class="yx_mbar_tab">
+<div class="yx_mbar_tab_logo yx_50_icon" id="yx_50">
+<a href="http://wza.bjhd.gov.cn/web/" target="_blank" id="yx_style_nav"></a>
+</div>
+</div>
+</div>
+<!--<div class="fhjb"><a href="http://hdnew.bjhd.gov.cn/" target="_blank"><img src="/sycs/images/fhjb.png" /></a></div>-->
+</div></div>
+<!--<script id="wza_sidebar" type="text/javascript" src="http://wza.bjhd.gov.cn/wza/yixuan/yixuan_nav1/domready.js?sid=9678?pos=left"></script>-->
+<script type="text/javascript" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/scrollTop.js"></script>
+<script type="text/javascript" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/gs.js"></script>
+
+<!--<script id="wza_sidebar" type="text/javascript" src="http://wza.bjhd.gov.cn/wza/yixuan/yixuan_nav1/domready.js?sid=9678?pos=left"></script>-->
+<script type="text/javascript" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/scrollTop.js"></script>
+<script type="text/javascript" src="%E5%8C%97%E4%BA%AC%E5%B8%82%E6%B5%B7%E6%B7%80%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8D%B0%E5%8F%91%E6%9C%AC%E5%8C%BA2017%E5%B9%B4%E2%80%9C%E7%96%8F%E8%A7%A3%E6%95%B4%E6%B2%BB%E4%BF%83%E6%8F%90%E5%8D%87%E2%80%9D%E4%B8%93%E9%A1%B9%E8%A1%8C%E5%8A%A8%E4%B8%8E%E4%BA%BA%E5%8F%A3%E8%B0%83%E6%8E%A7%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%A1%88%E7%9A%84%E9%80%9A%E7%9F%A5_files/gs.js"></script>
+
+<script> 
+var _vaq = _vaq || [];
+_vaq.push(["setCookieDomain", ".www.bjhd.gov.cn"]);
+_vaq.push(['setPingTime',3000]);
+_vaq.push(['enableHeat']);
+_vaq.push(['trackPageView']);
+(function() {
+var u=(("https:" == document.location.protocol) ? "https" : "http") + "://123.56.210.143/va-003/";
+_vaq.push(['setTrackerUrl', u+'va.gif']);
+_vaq.push(['setSiteId',12]);
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+g.defer=true; g.async=true; g.src='http://123.56.210.143/va.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<script>
+function doZoom(n){
+    $('.thirdContent').css({fontSize:n+'px'})
+}
+$(function(){
+    $('img').removeAttr('alt');
+});
+</script>
+  <script> 
+var _vaq = _vaq || [];
+_vaq.push(["setCookieDomain", ".www.bjhd.gov.cn"]);
+_vaq.push(['setPingTime',3000]);
+_vaq.push(['enableHeat']);
+_vaq.push(['trackPageView']);
+(function() {
+var u=(("https:" == document.location.protocol) ? "https" : "http") + "://123.56.210.143/va-003/";
+_vaq.push(['setTrackerUrl', u+'va.gif']);
+_vaq.push(['setSiteId',12]);
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+g.defer=true; g.async=true; g.src='http://123.56.210.143/va.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<script>
+$(function(){
+    $('img').removeAttr('alt')
+});
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4cd3483a8319709270f91b5f7fabae89";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!--外链弹窗-->
+	<style type="text/css">
+		a { text-decoration:none; font-family: "微软雅黑";outline: none;}
+		a:hover { text-decoration:none;}
+		.tcBox {
+			background: url(http://www.bjhd.gov.cn/sycs/images/win_bg.png) no-repeat;
+			width: 575px;
+			height: 260px;
+			overflow: hidden;
+			position: absolute;
+			z-index: 99999;
+			left: 50%;
+			top: 50%;
+			margin: -130px 0 0 -288px;
+			display: none;
+		}
+		.tcBox .closeBtn {
+			position: absolute;
+			right: 5px;
+			top: 5px;
+			width: 20px;
+			height: 20px;
+			text-align: center;
+			line-height: 20px;
+			color: #FFF;
+			font-size: 14px;
+			background: #000;
+			opacity: 0.8;
+			filter: alpha(opacity:80);
+			font-style: normal;
+			cursor: pointer;
+		}
+		.tcBox .btnBox {
+			width: 248px;
+			height: 34px;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			margin-left: -122px;
+		}
+		.tcBox .btnBox a {
+			display: block;
+			width: 110px;
+			height: 30px;
+			border: solid 2px #959595;
+			background: #FFF;
+			text-align: center;
+			line-height: 30px;
+			font-size: 16px;
+			color: #1a7ccb;
+			border-radius: 8px;
+			float: left;
+		}
+		.tcBox .btnBox a:hover {
+			background: #1a7ccb;
+			border: solid 2px #1a7ccb;
+			color: #FFF;
+		}
+		.tcBox .btnBox a.fqBtn {
+			margin-left: 20px;
+		}
+		.tcMask {
+			width: 100%;
+			height: 100%;
+			background: #000;
+			opacity: 0.6;
+			filter: alpha(opacity:60);
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 9999;
+			display: none;
+		}
+	</style>
+		<div class="tcBox">
+			<i class="closeBtn">X</i>
+			<div class="btnBox">
+				<a href="javascript:;" class="jxBtn" target="_blank">继续访问</a>
+				<a href="javascript:;" class="fqBtn">放弃</a>
+			</div>
+		</div>
+		<div class="tcMask"></div>
+		<script type="text/javascript">
+			$(function(){
+				$('a:not(.jxBtn)').each(function(i){
+					$(this).click(function(event){
+						if($(this).attr('href').indexOf('http://www.bjhd.gov.cn')<0 && $(this).attr('href').indexOf('http')!=-1){
+							event.preventDefault();
+							$('.jxBtn').attr('href',$(this).attr('href'));
+							var sTop = $(window).scrollTop();
+							$('.tcMask').show().css({'top':sTop+'px'});
+							$('body').css({'overflow':'hidden'});
+							$('.tcBox').show().css({'top':sTop+($(window).height()/2)+'px'});
+						}
+					});
+				});
+				
+				$('.tcMask,.tcBox,.closeBtn').click(function(){
+					$('body').css({'overflow':'auto'});
+					$('.tcMask').hide();
+					$('.tcBox').hide();
+				});
+			});
+		</script>
+<div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-overlay" title="拖动开始，双击或回车完成" style="display: none; left: 0px; top: 0px; width: 1516px; height: 13874px;"><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-top" style="left: 0px; top: 0px; width: 1516px; height: 7697px;"></div><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-left" style="left: 0px; top: 7697px; width: 261px; height: 362px;"></div><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-right" style="left: 964px; top: 7697px; width: 552px; height: 362px;"></div><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-bottom" style="left: 0px; top: 8059px; width: 1516px; height: 5815px;"></div><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-target" style="left: 261px; top: 7697px; width: 703px; height: 362px;"><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-ctrlnw"></div><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-ctrlne"></div><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-ctrlse"></div><div id="mococn-53ae8c3b-0d78-4c94-8ffd-4fa0c2e8f05a-crop-ctrlsw"></div></div></div></body></html>

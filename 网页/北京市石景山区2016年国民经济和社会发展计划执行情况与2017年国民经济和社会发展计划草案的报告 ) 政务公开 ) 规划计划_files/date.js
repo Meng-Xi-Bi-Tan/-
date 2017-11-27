@@ -1,0 +1,14 @@
+var noon;  
+var time=new Date();  
+var hour=time.getHours();  
+var minute=time.getMinutes();  
+var today=new Date;  
+var week=new Array(7);  
+week[0]="天";  
+week[1]="一";  
+week[2]="二";  
+week[3]="三";  
+week[4]="四";  
+week[5]="五";  
+week[6]="六";   
+document.write(today.getFullYear()+"年"+(today.getMonth()+1)+"月"+today.getDate()+"日  星期"+week[today.getDay()]);

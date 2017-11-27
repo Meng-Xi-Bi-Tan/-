@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="weather_data/widget.css"><link id="linkCSS" rel="stylesheet" type="text/css" href="weather_data/7.css"><title>
+	ThinkPage Weather
+</title><meta http-equiv="refresh" content="1800">
+    <script src="weather_data/hm.js"></script><script type="text/javascript">
+        /* ThinkPage Weather */
+        thinkpage_weather_req = {"User":"U110866036","City":null,"CityId":"CHBJ000000","CityName":"","Language":"zh-CHS","Provider":"SMART","AQIStatus":1,"APIVersion":0,"AutoCity":false,"Unit":"C","Skin":"7","FontColor":"#FFFFFF","BackgroundColor":"transparent","BorderColor":"none","DisplayCitySelect":0,"DisplayCurrent":false,"ForecastDays":1,"DisplayTitle":false,"DisplayInfo":false,"LinksType":2,"Type":"iframe","Source":null,"Suggestion":2};
+        thinkpage_weather_res = {"results":[{"location":{"id":"WX4FBXXFKE4F","name":"北京","country":"CN","path":"北京,北京,中国","timezone":"Asia/Shanghai","timezone_offset":"+08:00"},"now":{"text":"晴","code":"0","temperature":"2","humidity":"22","wind_direction":"南","wind_speed":"9.72","wind_scale":"2"},"daily":[{"date":"2017-11-26","text_day":"晴","code_day":"0","text_night":"晴","code_night":"0","high":"4","low":"-4"},{"date":"2017-11-27","text_day":"多云","code_day":"4","text_night":"多云","code_night":"4","high":"7","low":"-4"},{"date":"2017-11-28","text_day":"晴","code_day":"0","text_night":"晴","code_night":"0","high":"8","low":"-5"},{"date":"2017-11-29","text_day":"阴","code_day":"9","text_night":"阴","code_night":"9","high":"2","low":"-4"},{"date":"2017-11-30","text_day":"多云","code_day":"4","text_night":"晴","code_night":"0","high":"1","low":"-5"}],"air":{"city":{"aqi":"32","last_update":"2017-11-26T18:00:00+08:00","quality":"优"}},"alarms":[],"last_update":"2017-11-26T19:00:00+08:00"}]};
+        thinkpage_weather_vip = true;
+        thinkpage_weather_source = "";
+        /* Baidu */
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?317d1e4c0df1ea09912e5f05c5999d7f";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <div id="weatherAJAX">
+<style type="text/css">
+    a, a:hover, a:visited {color:#FFFFFF;}
+</style>
+<div id="tp-weather-widget" style="color:#FFFFFF; background-color:transparent; border:none; zoom:1;">
+    <div id="divOverlay" style="position:absolute; left:0; top:0; width:100%; height:1000px; background-color:#fff; z-index:3999; display:none;"></div>
+    
+<div id="divAD" class="clearfix">
+
+</div>
+    
+    
+    
+    <div id="divForecastWeather" class="linkBody" style="float: left; padding-right: 5px; margin-right: 5px; height: 17px; line-height: 17px; cursor: pointer;">
+        <span class="forecast" style="margin-right:5px;">
+            <span class="forecastDay"><span class="cityName">北京</span></span> <span class="forecastText">晴/晴</span> <span class="temp high" style="cursor: pointer;">4</span>/<span class="temp low" style="cursor: pointer;">-4</span>°<span class="unit">C</span>
+        </span>
+    </div>
+    
+    <div id="loading" class="corner-all">读取中</div>
+    
+</div></div>
+    <script type="text/javascript" src="weather_data/jquery-1.js"></script>
+    <script src="weather_data/widget.js" type="text/javascript"></script>
+
+</body></html>

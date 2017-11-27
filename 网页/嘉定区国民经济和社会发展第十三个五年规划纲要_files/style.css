@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body { margin: 0;padding:0;font-size: 15px;font-family: 'Microsoft YaHei',arial,helvetica,sans-serif;color: #333;}
+h1,h2,h3,h4,h5,h6 { margin: 0;}
+a { text-decoration: none;color: #333;}
+a:hover { color: #fd2800;}
+ul { margin: 0;padding:0;overflow: hidden;}
+ul li {list-style:none;}
+img { border: 0;}
+#skip { width: 0;height: 0;overflow: hidden;}
+#container { width: 100%;}
+
+.body { background: url(../image/bg.jpg) #fff  top center repeat-x;}
+.container { max-width: 1000px;margin: 0 auto;}
+.row-fluid { width: 100%;overflow: hidden;}
+.margin-bottom30 { margin-bottom: 30px;}
+
+.qianyan { letter-spacing: 15px; color: #f60000;font-size: 24px;text-align: center;background: url(../image/h2bg.png) no-repeat;}
+.qianyan-content { border: 1px solid #f60000;padding: 25px 30px;margin-top: 10px;}
+.qianyan-content p { line-height: 30px;color: #7c7c7c;margin:0;text-indent: 2em;}
+.soft { margin: 40px 0 25px 0;}
+.soft li { width: 23.5%;float: left;margin-left: 2%;}
+.soft li:first-child { margin-left: 0;}
+.soft li a { display: block;height: 43px;color: #fff;font-size: 16px;padding: 10px;text-align: center;}
+.long { margin-bottom: 40px;}
+.long li { float: left;width: 32%;margin-left:2%;}
+.long li:first-child { margin-left: 0;}
+.long li a { display: block;height: 43px;color: #fff;font-size: 16px;padding: 10px;text-align: center;}
+.page-header { margin-bottom: 10px;}
+.page-header h3 { line-height: 45px;border-bottom: 1px solid #fd2800;}
+.page-header h3  { color: #fd2800 ;font-size: 20px;padding-left: 10px;}
+.page-header h3 a { color: #fd2800 ;font-size: 20px;padding-left: 10px;}
+.ul-block >li { width: 49%;margin-left: 2%;float: left;}
+.ul-block >li:first-child { margin-left: 0;}
+.list { padding-left: 10px;width:98%;}
+.list li { background: url(../image/point.jpg) left center no-repeat;line-height: 35px;padding-left: 20px;}
+.list li span{float:right;color:gray;}
+
+.color-1 { background: #fd880f;}
+.color-1:hover { background: #F59E43;}
+.color-2 { background: #d94500;}
+.color-2:hover { background: #D46937;}
+.color-3 { background: #fd2800;}
+.color-3:hover { background: #ED816D;}
+.color-4 { background: #d30000;}
+.color-4:hover { background: #CE5C5C;}
+.color-5 { background: #fed035;}
+.color-5:hover { background: #FDDA64;}
+.color-6 { background: #fc7b00;}
+.color-6:hover { background: #F59234;}
+.color-7 { background: #990000;}
+.color-7:hover { background: #A35353;}
+
+//.footer { background: url(../image/foot.jpg) top center no-repeat;height: 154px;padding: 50px 0;}
+//.footer p { text-align: center;}
+
+.footer { background: url(../image/foot.jpg) top center no-repeat;height: 130px;width: 100%;}
+.footer p { text-align: center;}
+.newstyle{margin-top: 60px;margin-bottom: 20px;}
+
+.breadcrumb { overflow: hidden;margin: 30px 0;}
+.breadcrumb li { float: left;font-size: 15px;}
+
+.guihua-list { margin-left: 20px;margin-bottom: 120px;}
+.job-review-list li { line-height: 35px;}
+
+/*.gaojian { overflow: hidden;text-align: center;}
+
+.gaojian div { width: 86%;margin: 0 auto;margin-bottom: 10px;}
+.gaojian div p { text-align: left;line-height: 30px;margin: 0;}
+.gaojian div p img { text-align: center;margin:0 auto; }
+*/
+.gaojian h4 {text-align: center; border-bottom: 1px solid #f60000;font-size: 18px;padding:12px 0;margin-bottom: 10px;}
+.gaojian span { margin-bottom: 10px;display: block;}
+
+.Detail {margin: 0px 35px;}
+.Detail h2 {text-align: center;border-bottom: 1px solid rgb(255,51,0);padding-bottom: 20px;padding-top: 50px;font-size: 18px;}
+.DetailTime {text-align: center;}
+.DetailContent {margin: 0 60px;}
+.DetailContent p {line-height: 30px;font-size: 15px;}
+.DetailContent:last-child {padding-bottom: 45px;}
+
+/*-----------Page Start------------*/
+.PageNav{
+    text-align:center;
+    margin:30px auto 50px;
+    /*float:left;
+    position:relative;
+    left:50%;*/
+}
+.PageNav ul{
+    /*position:relative;
+    left:-50%;*/
+    list-style:none;
+}
+.PageNav ul li{
+    display:inline;
+}
+.PageNav ul li a{
+    color:black;
+    border:1px solid rgb(221,221,221);
+    padding:5px 12px;
+    text-decoration:none;
+}
+.PageNav ul li.Active a{
+    background-color:#fd2800;
+}
+
+
+.myli list{col50:46%}
+.myli { padding-left: 10px;width:1000px;}
+.myli li { width:46%; float:left; display:block;line-height: 35px;}
+
+

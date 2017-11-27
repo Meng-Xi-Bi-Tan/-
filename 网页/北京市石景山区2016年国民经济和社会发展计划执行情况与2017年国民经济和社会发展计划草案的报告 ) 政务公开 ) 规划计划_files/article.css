@@ -1,0 +1,13 @@
+/* article CSS Document */
+.article_c{ width:985px; float:left; border:1px #8BB5CE solid; margin-bottom:80px;}
+.article_title{ background:url(/images/article_t.jpg) no-repeat; width:985px; float:left; height:31px; padding-top:2px;}
+.article_t_left{ float:left; padding-left:30px; font-size:14px; font-weight:bold; height:31px; color:#2572BA; line-height:31px;}
+.article_t_right{float:right; height:31px; line-height:31px; color:#000000; padding-right:10px;}
+.article_t_right a{ color:#4C4D4F;}
+.article_t_right a:hover{color:#F73400;}
+
+.article_txt{width:985px; float:left;}
+.article_txt_t{ width:939px; margin:auto; text-align:center; padding-top:25px; padding-bottom:10px; font-size:14px; font-weight:bold; border-bottom:1px #CCCCCC dotted; line-height:25px;}
+.article_txt_t span{ font-size:12px; font-weight:normal;}
+.article_txt_c{ width:939px; margin:auto; padding:25px 0px 17px 0px; line-height:28px;font-size:14px; }
+.article_txt_c p{ font-size:14px; line-height:28px; padding-bottom:15px; text-indent:2em;}

@@ -1,0 +1,47 @@
+body{ font-size:12px; margin:0px}
+.bgc_yellow{ background-color:#FFFF00}
+.bgc_red{background-color:#FF0000}
+.bgc_white{background-color:#FFffff}
+.bgc_table_bg{background-color:#FF6600}
+.dh_font{ font-size:14px; font-weight:bold; color:white; text-align:center}
+.dh_gd_font{ font-size:13px; font-weight:bold; color:white;}
+.date{ font-size:10px;color: #FF0000}
+A.whit:link 
+{ 
+FONT-SIZE: 14px; COLOR: #ffffff; font-weight:bold; text-align:center; text-decoration:none;
+} 
+
+A.whit:visited 
+{ 
+FONT-SIZE: 14px; COLOR: #ffffff; font-weight:bold; text-align:center; text-decoration:none 
+} 
+
+A.whit:hover 
+{ 
+FONT-SIZE: 14px; COLOR: #fff000; font-weight:bold; text-align:center;text-decoration:none 
+} 
+
+A.whit:active 
+{ 
+FONT-SIZE: 14px; COLOR: #ffffff; font-weight:bold; text-align:center;text-decoration:none 
+} 
+
+A.bak:link 
+{ 
+FONT-SIZE: 12px; COLOR: #000000; font-weight:bold; text-align:center; text-decoration:none;
+} 
+
+A.bak:visited 
+{ 
+FONT-SIZE: 12px; COLOR: #000000; font-weight:bold; text-align:center; text-decoration:none 
+} 
+
+A.bak:hover 
+{ 
+FONT-SIZE: 12px; COLOR: blue; font-weight:bold; text-align:center;text-decoration:none 
+} 
+
+A.bak:active 
+{ 
+FONT-SIZE: 12px; COLOR: #000000; font-weight:bold; text-align:center;text-decoration:none 
+} 

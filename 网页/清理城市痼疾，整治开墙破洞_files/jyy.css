@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+/* CSS reset */
+
+
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.fixed:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+.fixed {
+  display: block;
+  min-height: 1%; }
+
+
+.mt15 {
+  margin-top: 15px; }
+
+.ml10 {
+  margin-left: 10px; }
+
+/*main*/
+.main {
+  width: 1032px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden; }
+
+.box {
+  overflow: hidden;
+  position: relative;}
+
+.leftBox {
+  width: 635px;
+  overflow: hidden; }
+
+.rightBox {
+  width: 385px;
+  overflow: hidden; }
+
+.location {
+  height: 30px;
+  line-height: 30px;
+font-size:14px;
+color: #bdbdbd; }
+
+.location a{
+font-size:12px;
+color: #bdbdbd;}
+
+ 
+/*# sourceMappingURL=site.css.map */
+.eduPic{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+    overflow: hidden;
+text-align:center}

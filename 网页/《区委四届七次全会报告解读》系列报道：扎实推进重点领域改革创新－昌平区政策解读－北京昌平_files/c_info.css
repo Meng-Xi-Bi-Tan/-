@@ -1,0 +1,40 @@
+﻿.content_xilan
+{
+	font-size:14px;
+line-height:28px;
+width:95%;
+}
+.title_xilan h1
+{
+	color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.line_xilan
+{
+	border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 96%;
+margin-bottom:20px;
+}
+.title_xilan
+{
+	line-height: 50px;
+    text-align: center;
+}
+.th_body_bottom2
+{
+	color: #000000;
+    line-height: 28px;
+}
+.th_body_bottom2 p
+{
+	color: #0000000;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 5px;
+    text-indent: 0;
+}
